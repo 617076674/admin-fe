@@ -1,11 +1,3 @@
-/*
-* @Author: Rosen
-* @Date:   2016-11-20 13:19:28
-* @Last Modified by:   Rosen
-* @Last Modified time: 2018-12-04 16:57:45
-* 知识点：css单独打包、全局jquery引用、各种loader
-*/
-
 var webpack             = require('webpack');
 var path                = require('path');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
