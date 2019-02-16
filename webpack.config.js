@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.617076674.cn/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -100,11 +100,11 @@ var config = {
         port: 8086,
         proxy : {
             '/manage' : {
-                target: 'http://admintest.happymmall.com',
+                target: 'http://admin.617076674.cn',
                 changeOrigin : true
             },
             '/user/logout.do' : {
-                target: 'http://admintest.happymmall.com',
+                target: 'http://admin.617076674.cn',
                 changeOrigin : true
             }
         }
